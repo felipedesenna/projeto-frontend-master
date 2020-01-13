@@ -24,6 +24,9 @@ export default class List extends Component {
                         <Typography variant="body2" color="textSecondary" component="p">
                         {list.attributes.description}
                         </Typography>
+                        <Typography variant="subtitle1" color="textSecondary">
+                        {list.attributes.otherNames}
+                        </Typography>
                     </CardContent>
                 </CardActionArea>
             </Card>
